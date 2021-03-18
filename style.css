@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow   : hidden;
+  background: linear-gradient(toright, rgb(23, 47, 99), rgb(130, 179, 212))
+}
+
+nav{
+  width:80%;
+  position: sticky;
+  margin:20px auto;
+  z-index:1;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  flex-basis
+}
