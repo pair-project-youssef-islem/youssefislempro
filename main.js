@@ -287,7 +287,7 @@
         for(var i in obj){
             if(obj[i] >0){
             document.getElementById("zero").innerHTML+= (i+"&emsp;"+"&emsp;")
-            document.getElementById("zero").innerHTML+= ("\t\t"+obj[i]+"<br>")
+            document.getElementById("zero").innerHTML+= (""+obj[i]+"<br>")
             }
 
         }
