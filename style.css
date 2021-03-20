@@ -1,25 +1,64 @@
-*{
-  margin:0;
-  padding:0;
-  font-family:sans-serif;
+body{
+  background-image: url(distributeur.jpg);
+  background-size: cover;
 }
-
-.main {
+.zeros {
+  font-size: 20px;
+  width: 30%;
+  border: 1px solid;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 220px;
+}
+table tr td{
+  border: 1px solid;
+  text-align: center;
+}
+td input[type="button"] {
   width: 100%;
-  height: 100%;
-  position: relative;
-  overflow   : hidden;
-  background: linear-gradient(toright, rgb(23, 47, 99), rgb(130, 179, 212))
+  height: 33px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  background: skyblue;
+  cursor: pointer;
 }
-
-nav{
-  width:80%;
-  position: sticky;
-  margin:20px auto;
-  z-index:1;
-  display: flex;
-  align-items: center;
+.rupees{
+  width: 25%;
+  margin: 0 auto;
+  font-size:x-large;
+  font-weight: bold;
+  color: white;
 }
-.logo{
-  flex-basis
+h3.total {
+  font-size: 20px;
+  border: 1px solid;
+  display: inline-block;
+  width: 31.33%;
+  padding: 4px;
+  height: 46px;
+}
+.btn {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 276px;
+}
+.btn input[type="button"] {
+  width: 100%;
+  height: 40px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.total{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  color: white;
+  font-size:x-large;
+}
+.table{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  color: white;
 }
